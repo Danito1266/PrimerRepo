@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lavanderias Software</title>
+  </head>
+  <body>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <img src="WEB-INF\resources\images\icono.png" alt="Icono de la lavanderia"  height="15%" width="15%"/>
+        </td>
+        <td>
+          <p><em>Sistema Integral para <strong>Lavanderias</strong></em></p>
+        </td>
+      </tr>
+    </table>
+    <hr size="3">
+    <form class="" action="mailto:dbenjik04@gmail.com" method="post" enctype="text/plain">
+      <label for="">Fecha:</label>
+      <input type="datetime-local" name="Fecha de recepción" value=""><br>
+      <label for="">Usuario:</label>
+      <input type="text" name="Usuario" value=""><br>
+      <label for="">Servicio:</label>
+      <ul>
+        <li>Lavado</li>
+        <li>Planchado</li>
+        <li>Desmanchado</li>
+      </ul><br>
+      <label for="">Cliente:</label>
+      <input type="text" name="Cliente" value="">
+      <label for="">Requiere factura?</label>
+      <input type="checkbox" name="Facturar?" value=""><br>
+      <label for="">Subtotal:</label>
+      <input type="text" name="Subtotal" value=""><br>
+      <label for="">Promoción / descuento:</label>
+      <input type="text" name="" value=""><br>
+      <label for="">I. V. A.:</label>
+      <input type="text" name="" value=""><br>
+      <label for="">Total:</label>
+      <input type="text" name="" value=""><br>
+      <label for="">Adelanto:</label>
+      <input type="text" name="" value=""><br>
+      <label for="">Por pagar:</label>
+      <input type="text" name="" value=""><br>
+      <input type="button" name="" value="Agregar Artículo"><br>
+      <table>
+        <th>
+          <tr>
+            <td>Artículo</td>
+            <td>Descripción</td>
+            <td>Cantidad</td>
+            <td>Precio Unitario</td>
+            <td>Promociones / Desc</td>
+            <td>Subtotal</td>
+          </tr>
+        </th>
+        <tbody>
+          <tr>
+            <td>Edredon</td>
+            <td>Blanco con flores rojas</td>
+            <td>1</td>
+            <td>150.00</td>
+            <td>0.00</td>
+            <td>150.00</td>
+          </tr>
+        </tbody>
+      </table><br>
+      <input type="button" name="" value="Agregar Servicio">
+      <input type="submit" name="" value="Guardar">
+      <input type="button" name="" value="Cancelar">
+    </form>
+  </body>
+</html>
